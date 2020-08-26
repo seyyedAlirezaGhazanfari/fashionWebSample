@@ -1,0 +1,86 @@
+body{
+    background-color:seagreen ;
+}
+table {
+    background-color: white;
+    width: 80%;
+    position: relative;
+    border: 1px solid yellow;
+    border-collapse: collapse;
+    padding: 15%;
+    margin: 10px;
+    margin-left: 80px;
+    outline-color: yellow;
+    font-size: large;
+    text-align-last: center;
+    border-spacing: 10px;
+}
+tr , td{
+    background-color: white;
+    width: 50%;
+   position: relative;
+  
+    border: 1px solid yellow;
+    margin: 20px;
+    outline-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    text-align-last: center;
+}
+img{
+    outline-color: seagreen;
+    display: block;
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+iframe{
+    margin-top: 50px;
+    outline-color: seagreen;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 80%;
+    height: 500px;
+}
+button{
+    margin-top: 50px;
+    background-color: skyblue;
+    outline: none;
+    width: 50%;
+    height: 50px;
+    position: relative;
+    
+}
+.sidebar {
+    margin-left: 80px;
+    
+    display: -moz-inline-grid;
+    position: relative;
+    grid-column-gap: 200px;
+    padding: 20px;
+    width: 80%;
+    background-color: #f1f1f1;
+    vertical-align: center;
+    height: 100%;
+    overflow: auto;
+    
+  }
+  .sidebar a {
+      margin-left: 20px;
+      width: 25%;
+        color: salmon;
+        padding: 30px;
+        position: block;
+  }
+
+caption{
+    padding: 10px;
+    margin: 5px;
+    color: darkkhaki;
+    font-size: xx-large;
+}
